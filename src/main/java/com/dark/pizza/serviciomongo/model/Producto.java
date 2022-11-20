@@ -4,10 +4,8 @@
  */
 package com.dark.pizza.serviciomongo.model;
 
-import com.sun.istack.internal.NotNull;
 import java.io.Serializable;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 
 /**
