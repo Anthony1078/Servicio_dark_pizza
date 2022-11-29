@@ -22,14 +22,25 @@ public class Producto implements Serializable{
     private String descripcion;
     private String precio;
 
+    private String imagen;
+
     public Producto() {
     }
 
-    public Producto(String id, String nombre, String descripcion, String precio) {
+    public Producto(String id, String nombre, String descripcion, String precio, String imagen) {
         this.id = id;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
+        this.imagen = imagen;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 
     public String getId() {
