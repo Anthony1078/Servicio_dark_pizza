@@ -20,14 +20,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author user
- */
-
 @RestController
 @RequestMapping(value = "/producto/api/v1")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:4200")
 public class ProductoController {
     
     @Autowired
